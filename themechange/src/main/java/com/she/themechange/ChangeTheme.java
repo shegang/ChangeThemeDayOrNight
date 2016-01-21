@@ -1,4 +1,4 @@
-package com.sunzxyong.themechange;
+package com.she.themechange;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.widget.Button;
 public class ChangeTheme extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        ThemeChangeUtil.changeTheme(this);
+        com.she.themechange.ThemeChangeUtil.changeTheme(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change);
 

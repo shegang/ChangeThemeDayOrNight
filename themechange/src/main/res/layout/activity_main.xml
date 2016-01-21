@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,16 +33,32 @@
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="?attr/switchTextColor"
         android:textOff="震动"
-        android:textOn="静音"
-        android:textColor="?attr/switchTextColor" />
+        android:textOn="静音" />
 
     <Button
         android:id="@+id/btn_setting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="设置"
         android:background="?attr/buttonBg"
+        android:text="设置"
         android:textColor="?attr/buttonTextColor" />
 
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/ic_dialog_dialer"
+        app:rippleColor="#e41f1f"
+        android:backgroundTint="#6ce40a"
+        android:backgroundTintMode="src_over"
+        />
+    </android.support.design.widget.CoordinatorLayout>
 </LinearLayout>

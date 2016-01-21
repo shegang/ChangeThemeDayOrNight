@@ -1,4 +1,4 @@
-package com.sunzxyong.themechange;
+package com.she.themechange;
 
 import android.app.Activity;
 

@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="DayTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="DayTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#03A9F4</item>
         <item name="android:textColorPrimary">#ffffff</item>
